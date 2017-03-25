@@ -11,8 +11,6 @@
 
 [![meanstackjs Logo](http://meanstackjs.com/images/logo/header3x.png)](http://meanstackjs.com/)
 
-
-
 Why Mean Stack JS
 -----------------
 
@@ -35,7 +33,7 @@ Check out this YouTube channel that has content to help you:
 * [Watch MeanStackJS - What is series](https://www.youtube.com/playlist?list=PLhJ-Q2setTdpkHfA-mDMSjl4Wv-trKlY8)
 
 For more control or something more basic, start here instead:
-* [Lite Version](https://github.com/greenpioneersolutions/meanstackjs-lite)
+* [Lite Version of MeanStackJS](https://github.com/greenpioneersolutions/meanstackjs-lite)
 
 For the Api version, start here instead:
 * [Men Version](https://github.com/greenpioneersolutions/menstackjs)
@@ -58,24 +56,40 @@ What is Mean Stack JS?
 
 [Check Documentation Here](https://github.com/greenpioneersolutions/meanstackjs/wiki)
 
-Pre-Requisites
--------------
+Features
+-----------------
+We are building this framework to make the development process as simple and scalable as possible. Usable by everyone involved in software development from User Experience Designers, Quality Assurance Engineers, Software Engineers, Frontend Developers, Backend Developers & Full Stack Engineers.
 
-- <img src="https://www.mongodb.com/assets/global/favicon-bf23af61025ab0705dc84c3315c67e402d30ed0cba66caff15de0d57974d58ff.ico" height="17">&nbsp; [Download](https://www.mongodb.org/downloads) and Install mongodb - <a href="https://docs.mongodb.org/manual/">Checkout their manual</a> if you're just starting
-  - <img src="http://deluge-torrent.org/images/apple-logo.gif" height="17">&nbsp; [OSX MongoDB](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/)
-  - <img src="http://dc942d419843af05523b-ff74ae13537a01be6cfec5927837dcfe.r14.cf1.rackcdn.com/wp-content/uploads/windows-8-50x50.jpg" height="17">&nbsp; [Windows Mongodb](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/)
-  - <img src="https://lh5.googleusercontent.com/-2YS1ceHWyys/AAAAAAAAAAI/AAAAAAAAAAc/0LCb_tsTvmU/s46-c-k/photo.jpg" height="17">&nbsp; [Linux Mongodb](https://docs.mongodb.org/manual/administration/install-on-linux/)
-- <img src="https://nodejs.org/static/apple-touch-icon.png" height="17">&nbsp; [Download](http://nodejs.org) and Install Node.js  - nodeschool has free <a href=" http://nodeschool.io/#workshoppers">node tutorials</a> to get you started
+Some key features in the framework we like listed below:
+
+- Customizable CLI for scaffolding of modules
+- Can Build Dynamic Api's based off Schema
+- Can Open Dynamic Query with routes
+- LiveReload & Recompile in Development Env
+- Not Dependent on Grunt or Gulp 
+- No Magic Wand
+- Uses JS Standard & John Papa Angular Style
+- UI framework agnostic - Use Bootstrap , Materialize or Foundation
+- JWT for api auth
+- Simple Project Structure
+- Supports CSS, SCSS & LESS
+- Supports Clustering
+- Supports Environments: Development, Test & Production
+- Docker 
+- Swagger.io 
+- NightWatch E2E
+- Mongodb Admin Web Portal
+- System Status Dashboard
+- Error Dashboard
+- Scripts Automate the entire process
+- Agenda (task scheduler)
 
 
-[Check Documentation Here](https://github.com/greenpioneersolutions/meanstackjs/wiki)
+What we want to do moving forward with this project is to layout a road map so that you can give your thoughts and let us know what we can add to make your life easier with this framework. We welcome all of those who wish to contribute and be apart of this. Join us in building Mean Stack Js
 
-[Check Demo Here](https://meanstackjs.herokuapp.com/)
 
 Getting Started
----------------
-
-The easiest way to get started is to clone the repository:
+------------------
 
 ```bash
 # Get the latest snapshot
@@ -91,6 +105,8 @@ npm install
 npm start
 # or
 node index.js
+# or
+nodemon index.js
 ```
 
 [Check Documentation Here](https://github.com/greenpioneersolutions/meanstackjs/wiki)
@@ -98,30 +114,3 @@ node index.js
 [Check Demo Here](https://meanstackjs.herokuapp.com/)
 
 [Check Roadmap Here](https://github.com/greenpioneersolutions/meanstackjs/wiki/Roadmap)
-
-[express]: <http://expressjs.com>
-[AngularJS]: <http://angularjs.org>
-[node.js]: <http://nodejs.org>
-[license]: http://showalicense.com/?fullname=Green%20Pioneer%20%3Cgreen%40greenpioneersolutions.com%3E&year=2016#license-mit
-[website]: http://greenpioneersolutions.com/
-
-
-<div align="center">
-  <img src="http://greenpioneersolutions.com/img/icons/apple-icon-180x180.png"><br>
-  <a href="https://www.facebook.com/Green-Pioneer-Solutions-1023752974341910">
-    <img src="https://greenpioneer.github.io/images/social-1_square-facebook.svg">
-  </a>
-  <a href="https://twitter.com/greenpioneerdev">
-    <img src="https://greenpioneer.github.io/images/social-1_logo-twitter.svg">
-  </a>
-  <a href="https://github.com/greenpioneersolutions">
-    <img src="https://greenpioneer.github.io/images/social-1_logo-github.svg">
-  </a>
-  <a href="http://greenpioneersolutions.com/">
-    <img src="https://greenpioneer.github.io/images/social-1_logo-blogger.svg">
-  </a>
- </div>
-
-
-[MIT][license] © [Green Pioneer][website]
-
